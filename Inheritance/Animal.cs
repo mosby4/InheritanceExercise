@@ -7,10 +7,10 @@ namespace Inheritance
 		{
 		}
 
-		public int legCount { get; set; }
-		public string habitat { get; set; }
-		public bool isCarnivore { get; set; }
-		public string fur { get; set;  }
+		public int LegCount { get; set; }
+		public string Habitat { get; set; }
+		public bool IsCarnivore { get; set; }
+		public string Fur { get; set;  }
 
 
 	}

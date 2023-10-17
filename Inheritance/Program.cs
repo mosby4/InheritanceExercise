@@ -21,25 +21,26 @@ namespace Inheritance
             // Set this class to inherit from your Animal Class--Done 
 
             var Cockatoo = new Bird();
-            Cockatoo.isFlightful = true;
-            Cockatoo.beak = "curved and robust";
-            Cockatoo.size = "petit";
-            Cockatoo.tweet = "Can Talk";
+            Cockatoo.IsFlightful = true;
+            Cockatoo.Beak = "curved and robust";
+            Cockatoo.Size = "petit";
+            Cockatoo.Tweet = "Can Talk";
 
             var GilaMonster = new Reptile()
             {
-                isColdBlooded = true,
-                skin = "dry and bumpy",
-                lungs = 2,
-                fertilizeEggs = "Internal fertilization",
+                IsColdBlooded = true,
+                Skin = "dry and bumpy",
+                Lungs = 2,
+                FertilizeEggs = "Internal fertilization",
+                Fur = "fur",
             };
-            Console.WriteLine($"These are the qualaties of my new pet: " +
-                $"Can Fly ={Cockatoo.isFlightful} it's beak is {Cockatoo.beak}, " +
-                $"it's {Cockatoo.size }, and {Cockatoo.tweet}!");
+            Console.WriteLine($"These are the qualaties of my new pet Cockatoo: " +
+                $"Can Fly ={Cockatoo.IsFlightful} it's beak is {Cockatoo.Beak}, " +
+                $"it's {Cockatoo.Size }, and {Cockatoo.Tweet}!");
             Console.WriteLine();
             Console.WriteLine($"I seen the most interesting Gilla Monster. Here a few characteristics: " +
-                $"Is cold blooded = {GilaMonster}, " +
-                $"skin = {GilaMonster.skin }, It has {GilaMonster.lungs}, and does {GilaMonster.fertilizeEggs}. ");
+                $"Is cold blooded = {GilaMonster.IsColdBlooded}, " +
+                $"skin = {GilaMonster.Skin } it does not have {GilaMonster.Fur}, It has {GilaMonster.Lungs} lungs, and does {GilaMonster.FertilizeEggs}. ");
 
 
             /*Create an object of your Bird class

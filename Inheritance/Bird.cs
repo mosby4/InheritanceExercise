@@ -6,10 +6,10 @@ namespace Inheritance
 		public Bird()
 		{
 		}
-		public bool isFlightful { get; set; }
-		public string beak { get; set; }
-		public string size { get; set; }
-		public string tweet { get; set; }
+		public bool IsFlightful { get; set; }
+		public string Beak { get; set; }
+		public string Size { get; set; }
+		public string Tweet { get; set; }
 	}
 }
 
